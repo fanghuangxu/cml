@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cml"
+version = "0.2.0"
+description = "A brief description of the library"
+readme = "README.md"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [
+    {name = "fanghuangxu", email = "fanghuangxu@e163.com"},
+]
+keywords = ["minecraft launcher", "minecraft-launcher", "china-minecraft-launcher"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/fanghuangxu/china-minecraft-launcher"
+"Issue Tracker" = "https://github.com/fanghuangxu/china-minecraft-launcher/issues"
+[tool.setuptools]
+packages = ["cml"]
+include-package-data = true
